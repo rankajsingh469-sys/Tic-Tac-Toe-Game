@@ -1,0 +1,119 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #c8b6ff;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;  /* Stacks grid and button vertically */
+    align-items: center;     /* Centers both elements horizontally */
+    justify-content: center; /* Centers them vertically within the box */
+    gap: 20px; 
+
+
+
+}
+
+.Game {
+    display: grid;
+
+    gap: 5px;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    margin: 0 auto;
+    height: max-content;
+    width: max-content;
+}
+
+.box {
+    height: 90px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 40px;
+    background-color: #E6E6FA;
+
+
+}
+
+.box:hover {
+    background-color: #F0F8FF;
+}
+
+.Reset {
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #F2F3F4;
+    background-color: black;
+    font-weight: 600;
+    font-size: 13px;
+    align-self: center;
+    text-align: center;
+    display: block;   /* Allows margin auto to work */
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+
+
+
+}
+
+.button {
+   
+    text-align: center;
+
+}
+
+
+#new-btn     {
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #F2F3F4;
+    background-color: black;
+    font-weight: 600;
+    font-size: 13px;
+    align-self: center;
+    text-align: center;
+    display: block;   /* Allows margin auto to work */
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+
+
+
+}
+
+#msg {
+    color: #F2F3F4;
+    font-size: 4vmin;
+}
+
+.msg-container{
+    height: 20vmin;
+}
+
+.hide{
+    display: none;
+}
+.hide1{
+    display: none;
+}
+.display{
+    display: block;
+}
+
